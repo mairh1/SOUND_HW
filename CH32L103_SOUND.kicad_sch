@@ -5,9 +5,8 @@
 	(uuid "c4c9c8bf-f57f-47b5-804e-22463623bff3")
 	(paper "A4")
 	(title_block
-		(title "震动语音公仔")
-		(date "2025-04-21")
-		(rev "1.1.0")
+		(date "2025-05-04")
+		(rev "1.2.0")
 		(company "Maiooo")
 	)
 	(lib_symbols
@@ -3900,7 +3899,7 @@
 		)
 		(uuid "0e0862ae-0763-4359-8cbc-65926d6992f9")
 	)
-	(text "霍尔开关"
+	(text "LED指示灯"
 		(exclude_from_sim no)
 		(at 237.49 155.194 0)
 		(effects
