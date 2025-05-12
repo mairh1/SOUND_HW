@@ -5,7 +5,7 @@
 	(uuid "c4c9c8bf-f57f-47b5-804e-22463623bff3")
 	(paper "A4")
 	(title_block
-		(date "2025-05-04")
+		(date "2025-05-12")
 		(rev "1.2.0")
 		(company "Maiooo")
 	)
@@ -3899,6 +3899,26 @@
 		)
 		(uuid "0e0862ae-0763-4359-8cbc-65926d6992f9")
 	)
+	(text "M2螺丝孔"
+		(exclude_from_sim no)
+		(at 246.888 63.246 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "35ffc959-be7b-4e6b-9789-b1bfcc4bd029")
+	)
+	(text "电池充电管理"
+		(exclude_from_sim no)
+		(at 131.064 65.532 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3ae38d17-e96f-4260-8df4-8632067dba12")
+	)
 	(text "LED指示灯"
 		(exclude_from_sim no)
 		(at 237.49 155.194 0)
@@ -3918,6 +3938,66 @@
 			)
 		)
 		(uuid "978dafe3-1ca7-4ce0-8c11-dc2809b6aada")
+	)
+	(text "线性稳压器"
+		(exclude_from_sim no)
+		(at 197.612 66.802 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "97f55a0c-0c16-4caa-aabd-4b1cfb7dc8c9")
+	)
+	(text "CX588语音芯片"
+		(exclude_from_sim no)
+		(at 228.092 122.174 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9c921bc1-6668-4ebf-a2a6-61144d41fd06")
+	)
+	(text "CH32L03主控"
+		(exclude_from_sim no)
+		(at 58.42 126.746 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a9b6384f-302f-45b7-92ad-7a782cff3bb8")
+	)
+	(text "CH32调试接口"
+		(exclude_from_sim no)
+		(at 127 116.586 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "ab08dc71-3f9b-40bd-9025-1f428045d9e0")
+	)
+	(text "USB-C 6Pin 充电接口"
+		(exclude_from_sim no)
+		(at 47.752 65.532 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "bb1cd1c8-5c80-4285-b777-ed9a4a19be3d")
+	)
+	(text "CX588调试接口"
+		(exclude_from_sim no)
+		(at 165.354 115.57 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c0423591-7f29-40a8-a512-48c98c22f049")
 	)
 	(text "充电检测"
 		(exclude_from_sim no)
@@ -8446,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Value" "CS588"
+		(property "Value" "CX588"
 			(at 220.98 85.09 0)
 			(effects
 				(font
